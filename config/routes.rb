@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'fcc#index'
+  get 'fcc/index'
   get 'fcc/components'
   get 'fcc/props'
   get 'fcc/states'

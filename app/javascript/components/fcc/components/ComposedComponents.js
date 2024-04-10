@@ -3,7 +3,7 @@ import React     from "react"
 const Vegetables = () => {
   return(
     <React.Fragment>
-      <h3>Vegetables:</h3>
+      <h4>Vegetables:</h4>
       <ul>
         <li>Brussel Sprouts</li>
         <li>Broccoli</li>
@@ -17,7 +17,7 @@ const Vegetables = () => {
 const NonCitrus = () => {
   return(
     <React.Fragment>
-      <h4>NonCitrus:</h4>
+      <h5>NonCitrus:</h5>
       <ul>
         <li>Apples</li>
         <li>Blueberries</li>
@@ -31,7 +31,7 @@ const NonCitrus = () => {
 const Citrus = () => {
   return(
     <React.Fragment>
-      <h4>Citrus:</h4>
+      <h5>Citrus:</h5>
       <ul>
         <li>Lemon</li>
         <li>Lime</li>
@@ -50,7 +50,7 @@ class Fruits extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <h3>Fruits</h3>
+        <h4>Fruits</h4>
         <NonCitrus />
         <Citrus />
       </React.Fragment>
@@ -66,7 +66,7 @@ export default class ComposedComponents extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <h2>Types of Food (Composed Components)</h2>
+        <h3>Types of Food (Composed Components)</h3>
         <Fruits />
         <Vegetables />
       </React.Fragment>
