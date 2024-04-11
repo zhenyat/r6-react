@@ -1,3 +1,6 @@
+// New version, updated for React 18 
+//              with createRoot instead of ReactDOM
+
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
