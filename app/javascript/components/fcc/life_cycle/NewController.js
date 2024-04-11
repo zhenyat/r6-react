@@ -14,7 +14,7 @@ class OnlyEvens extends React.Component {
       return false;
      // change code above this line
   }
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     console.log('Receiving new props...');
   }
   componentDidUpdate() {

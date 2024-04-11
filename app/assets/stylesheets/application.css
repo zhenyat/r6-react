@@ -16,5 +16,6 @@
  
 h1.title {color: maroon;}
 h2.lesson {color: navy;}
-p.updated {color: green}
-p.note    {color: blue}
+.updated {color: green}
+.note    {color: blue}
+.alarm    {color: red}

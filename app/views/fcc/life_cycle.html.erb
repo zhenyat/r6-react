@@ -4,14 +4,27 @@
 <%= link_to 'Back',    fcc_index_path %>
 
 <ul><h4>A list of some main lifecycle methods</h4>
-  <li>componentWillMount()</li>
-  <li>componentDidMount()</li>
-  <li>componentWillReceiveProps()</li>
-  <li>shouldComponentUpdate()</li>
+  <li>
+    componentWillMounts() - 
+    <em class='alarm'>depricated since React 17 </em>
+    <em class='updated'> -> replaced with UNSAFE_componentWillMount</em></li>
+  </li>
+   <li>componentDidMount()</li>
+  <li>
+    componentWillReceiveProps() - 
+    <em class='alarm'>depricated since React 17 </em>
+    <em class='updated'> -> replaced with UNSAFE_componentWillReceiveProps</em>
+  </li>
+    <li>
+    shouldComponentUpdate() - 
+    <em class='alarm'>depricated since React 17 </em>
+    <em class='updated'> -> replaced with UNSAFE_cshouldComponentUpdate</em></li>
+  </li>
   <li>componentWillUpdate()</li>
   <li>componentDidUpdate()</li>
   <li>componentWillUnmount()</li>
 </ul>
+
 <p>
   Component lifecycles can be broken down into 4 stages:<br>
   <strong>Initlization -> Mounting -> Updating -> Unmounting</strong>

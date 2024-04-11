@@ -5,13 +5,13 @@ class Dialog extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentWillUpdate() {
+  UNSAFE_componentWillUpdate() {
     console.log('Component is about to update...');
   }
   
   // Create componentWillReceiveProps
   // Pass in argument nextProps and log out the current prop and next prop
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     // Log the current property and the next property  
     console.log(this.props, nextProps);
   }

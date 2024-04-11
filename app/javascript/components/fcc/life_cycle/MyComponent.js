@@ -5,7 +5,7 @@ class MyComponent extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     // Create componentWillReceiveProps
     // Pass in argument nextProps and log out the current prop and next prop
     console.log("Show in console: before rendering...");
